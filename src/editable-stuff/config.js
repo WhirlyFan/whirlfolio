@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/profile_pic.jpg"),
   imageSize: 375,
   message:
-    "Hey! I'm Michael. I'm a Full-Stack Software Developer graduate from App Academy. I've got bachelor's degrees in International Studies and Business Economics from UCI. I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    "Hey! I'm Michael a.k.a. WhirlyFan. I'm a Full-Stack Software Developer graduate from App Academy. I've got bachelor's degrees in International Studies and Business Economics from UCI. I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
   resume:
     "https://docs.google.com/document/d/1ZbI-fNM0RWTgg8c_gzTd_fBAPJpq4z1D_rCtocMP3FE/edit?usp=sharing",
 };
@@ -75,12 +75,12 @@ const repos = {
 // Leadership SECTION
 const leadership = {
   show: false,
-  heading: "Leadership",
+  heading: "Photography",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     {
-      img: require("../editable-stuff/profile_pic.jpg"),
+      img: require("../editable-stuff/tahoe.jpg"),
       label: "First slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
