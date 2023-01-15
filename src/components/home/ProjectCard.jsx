@@ -12,14 +12,16 @@ const ProjectCard = ({ value }) => {
     stargazers_count,
     languages_url,
     pushed_at,
+    homepage,
   } = value;
   return (
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+        {console.log(homepage)}
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
-          {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
+          {svn_url ? <CardButtons svn_url={svn_url} homepage={homepage} /> : <Skeleton count={2} />}
           <hr />
           {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
@@ -37,7 +39,7 @@ const ProjectCard = ({ value }) => {
   );
 };
 
-const CardButtons = ({ svn_url }) => {
+const CardButtons = ({ svn_url, homepage }) => {
   return (
     <div className="d-grid gap-2 d-md-block">
       <a
@@ -49,6 +51,9 @@ const CardButtons = ({ svn_url }) => {
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mx-2">
         <i className="fab fa-github" /> Repo
       </a>
+      {homepage && <a href={homepage} target=" _blank" className="btn btn-outline-secondary mx-2">
+        <i className="fab fa-safari"/> Live Site
+        </a>}
     </div>
   );
 };
