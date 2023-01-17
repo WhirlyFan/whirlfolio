@@ -9,7 +9,8 @@ const mainBody = {
   firstName: "Michael",
   middleName: "",
   lastName: "Lee",
-  message: " Passionate about changing the world with technology. ",
+  messages: " Full-Stack Software Engineer ",
+  // edit strings in MainBody for Typed Component.
   icons: [
     {
       image: "fa-github",
@@ -55,8 +56,8 @@ const about = {
   imageSize: 375,
   message:
     "Hey! I'm Michael a.k.a. WhirlyFan. I'm a Full-Stack Software Developer graduate from App Academy. I've got bachelor's degrees in International Studies and Business Economics from UCI. I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-  resume:
-    "https://docs.google.com/document/d/1ZbI-fNM0RWTgg8c_gzTd_fBAPJpq4z1D_rCtocMP3FE/edit?usp=sharing",
+  resume: require("../editable-stuff/resume.pdf"),
+  // resume: "https://docs.google.com/document/d/1ZbI-fNM0RWTgg8c_gzTd_fBAPJpq4z1D_rCtocMP3FE/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,7 +67,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Projects",
   gitHubUsername: "whirlyfan", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: ["Lister", "TheBnB", "Hangers-Academy"],
@@ -74,21 +75,51 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Photography",
+  show: true,
+  heading: "Project Details",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "The images displayed next to this paragraph are examples of projects that I have created. The first image is of a website inspired by MyAnimeList, which is a popular website for tracking and discussing anime. The second image is of a clone of Discord, a popular messaging app primarily used by gamers. The third image is of a clone of AirBnB, a website that allows people to rent out their homes or apartments to travelers. All of these projects were created by me and serve as examples of my programming abilities.",
   images: [
     {
-      img: require("../editable-stuff/tahoe.jpg"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      img: require("../editable-stuff/assets/lister.jpg"),
+      label: "Lister",
+      paragraph: "Inspired by MyAnimeList",
     },
     {
-      img: require("../editable-stuff/profile_pic.jpg"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      img: require("../editable-stuff/assets/hangers_academy.jpg"),
+      label: "Hangers Academy",
+      paragraph: "Clone of Discord",
     },
+    {
+      img: require("../editable-stuff/assets/thebnb.jpg"),
+      label: "TheBnB",
+      paragraph: "Clone of AirBnB",
+    },
+    // {
+    //   img: require("../editable-stuff/assets/bali.jpg"),
+    //   label: "First slide label",
+    //   paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+    // },
+    // {
+    //   img: require("../editable-stuff/assets/buddha.jpg"),
+    //   label: "Second slide label",
+    //   paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+    // },
+    // {
+    //   img: require("../editable-stuff/assets/forest.jpg"),
+    //   label: "Second slide label",
+    //   paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+    // },
+    // {
+    //   img: require("../editable-stuff/assets/korea.jpg"),
+    //   label: "Second slide label",
+    //   paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+    // },
+    // {
+    //   img: require("../editable-stuff/assets/umbrella.jpg"),
+    //   label: "Second slide label",
+    //   paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+    // },
   ],
   imageSize: {
     width: "615",
@@ -102,17 +133,22 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "Flask", value: 65 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
+    { name: "Redux", value: 100 },
+    { name: "Flask", value: 65 },
     { name: "Express", value: 55 },
-    { name: "HTML/CSS", value: 80 },
+    { name: "HTML5", value: 80 },
+    { name: "CSS3" },
+    { name: "SQLAlchemy", value: 75 },
+    { name: "Sequelize", value: 85 },
+    { name: "PostgreSQL" },
+    { name: "Heroku" },
+    { name: "Render" },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
+    { name: "Comunnication", value: 90 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },

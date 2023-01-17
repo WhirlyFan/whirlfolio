@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
+// import Typist from "react-typist-component";
+import Typed from "react-typed";
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
@@ -20,11 +21,26 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist>
+          {/* <Typist>
             <div className="lead typist">
               {message}
             </div>
-          </Typist>
+          </Typist> */}
+          <span className="lead typist">I'm a </span>
+          <Typed
+            className="lead typist"
+            strings={[
+              "Front End Developer",
+              "Back End Developer",
+              "Software Engineer",
+              "Full Stack Developer",
+              "fun person to work with!"
+            ]}
+            typeSpeed={80}
+            backDelay={1100}
+            backSpeed={30}
+            loop
+          />
           <div className="p-5">
             {icons.map((icon, index) => (
               <a
