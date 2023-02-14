@@ -4,7 +4,7 @@
   <h1 align="center">Whirlfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL: 
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL:
     <a href="https://whirlyfan.com/">whirlyfan.com</a>
     <br />
     <br />
@@ -93,6 +93,13 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
    npm start
    ```
 
+or with node version 16.16.0
+
+  ```bash
+   npm install --legacy-peer-dep
+   npm start
+   ```
+
 8. To deploy website, run:
 
    ```bash
@@ -110,9 +117,9 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
 10. To change the thumbnail image:
 
-    - Navigate to the "public" folder.  
-    - There you will see "social-image.png".  
-    - Delete it.   
-    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
-    
+    - Navigate to the "public" folder.
+    - There you will see "social-image.png".
+    - Delete it.
+    - Take a screenshot of your version and rename it "social-image.png" and place it there.
+
    Next time if you make changes, repeat from step 8.
