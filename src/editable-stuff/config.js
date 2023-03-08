@@ -26,7 +26,7 @@ const mainBody = {
     },
     {
       image: "fa-angellist",
-      url: "https://angel.co/u/michael-lee-304/",
+      url: "https://angel.co/u/mhykoly/",
     },
     {
       image: "fa-instagram",
