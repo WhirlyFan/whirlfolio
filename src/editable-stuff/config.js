@@ -178,12 +178,12 @@ const experiences = {
     {
       role: "Software Engineer", // Here Add Company Name
       companylogo: require("../assets/img/apero.png"),
-      date: "May 2023 – July 2023",
+      // date: "May 2023 – July 2023",
     },
     {
       role: "Financial Planner",
       companylogo: require("../assets/img/northwestern.png"),
-      date: "January 2022 – June 2022",
+      // date: "January 2022 – June 2022",
     },
   ],
 };
