@@ -134,17 +134,21 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "JavaScript", value: 90 },
+    { name: "TypeScript", value: 50 },
     { name: "React", value: 65 },
     { name: "Redux", value: 100 },
     { name: "Flask", value: 65 },
+    { name: "Django", value: 50 },
     { name: "Express", value: 55 },
     { name: "HTML5", value: 80 },
     { name: "CSS3" },
+    { name: "LessCSS", value: 50 },
     { name: "SQLAlchemy", value: 75 },
     { name: "Sequelize", value: 85 },
     { name: "PostgreSQL" },
-    { name: "Heroku" },
-    { name: "Render" },
+    { name: "GraphQL", value: 50 },
+    { name: "Git", value: 90 },
+    { name: "AntDesign", value: 50 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -168,18 +172,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
+      companylogo: require("../assets/img/apero.png"),
+      date: "May 2023 – July 2023",
     },
     {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
+      role: "Financial Planner",
+      companylogo: require("../assets/img/northwestern.png"),
+      date: "January 2022 – June 2022",
     },
   ],
 };
