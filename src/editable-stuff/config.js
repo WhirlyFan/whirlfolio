@@ -134,6 +134,7 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "JavaScript", value: 90 },
+    { name: "TypeScript" },
     { name: "React", value: 65 },
     { name: "Redux", value: 100 },
     { name: "Flask", value: 65 },
@@ -142,10 +143,9 @@ const skills = {
     { name: "Apollo/GraphQL", value: 55 },
     { name: "PostgreSQL", value: 75 },
     { name: "Git", value: 85 },
-    { name: "HTML" },
-    { name: "CSS" },
-    { name: "SQL", value: 75 },
-    { name: "PostgreSQL" },
+    { name: "HTML/CSS" },
+    { name: "PostgreSQL/SQL", value: 75 },
+    { name: "Unix/Linux" },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
