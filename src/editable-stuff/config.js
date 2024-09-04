@@ -55,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/profile_pic.jpg"),
   imageSize: 375,
   message:
-    "Hey! I'm Michael a.k.a. WhirlyFan. I'm a Full-Stack Software Developer graduate from App Academy. I've got bachelor's degrees in International Studies and Business Economics from UCI and I'm currently working on a M.S. in Computer Science at UT Austin. I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    "Hey! I'm Michael a.k.a. WhirlyFan. I'm currently working on my M.S. in Computer Science at UT Austin, I'm super passionate about Machine Learning and Full Stack Software Development. I enjoy snowboarding, travelling, and I believe artificial intelligence will inevitably rule us all one day. :)",
   resume: require("../editable-stuff/resume.pdf"),
   // resume: "https://docs.google.com/document/d/1ZbI-fNM0RWTgg8c_gzTd_fBAPJpq4z1D_rCtocMP3FE/edit?usp=sharing",
 };
